@@ -8,7 +8,7 @@ function sub($string="", $index=0, $badgeEnabled=false){
 
 	// if the lentgh of the String is 
 	// equal to the Index, so that means
-	// that there is no need for suspensions
+	// there is no need for suspensions
 	// points because we don't cut enough the String
 	if (strlen($string) <= $index) {
 		return substr($string, 0, $index);
